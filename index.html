@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!--<div class="items-list">
+      <ul class="list">
+        <li>ProductName <button type="button" name="button">ADD</button></li>
+        <li>Product2name <button type="button" name="button">ADD</button></li>
+      </ul>
+    </div>-->
+    <div class="main-container">
+      <div class="list-container">
+      <div class="Page-item-list">
+        <div class="item-image">
+          <img src="./images/item2.jpg" height="100%" width="100%" alt=""/>
+        </div>
+        <div class="item-name">
+          <input type="text" name="" value="Item Name" />
+        </div>
+        <div class="quantity-container">
+          <button class="plus-btn" type="button" name="button">+</button>
+          <input type="text" class="quantity" name="name" value="1" readonly>
+          <button class="minus-btn" type="button" name="button">-</button>
+        </div>
+        <div class="price">
+          <p> <input class= "price" type = "text" value = "Price" /></p>
+        </div>
+        <div class="buttons">
+          <span class="add_item"><button>ADD</button></span>
+        </div>
+      </div>
+     </div>
+
+     <div class="cart_container">
+      <!--Title-->
+      <div class="heading"><h2>YOUR CART</h2></div>
+   <div class="items">
+      <!--for first item-->
+      <div class="item">
+        <div class="item-image">
+          <img src="./images/item1.jpg" height="100%" width="100%" alt=""/>
+        </div>
+        <div class="description"><span>Watch</span></div>
+        <div class="quantity-container">
+          <button class="plus-btn" type="button" name="button">+</button>
+          <input type="text" class="quantity" name="name" value="1" readonly>
+          <button class="minus-btn" type="button" name="button">-</button>
+        </div>
+        <div class="price"> Rs.100 </div>
+        <div class="buttons">
+          <span class="delete-btn"><button>&#10006;</button></span>
+          <span class="favorite-btn"><button>&#10084;</button></span>
+        </div>
+      </div>
+      <!--for Second item-->
+      <div class="item">
+        <div class="item-image">
+          <img src="./images/item1.jpg" height="100%" width="100%" alt=""/>
+        </div>
+        <div class="description"><span>Watch</span></div>
+        <div class="quantity-container">
+          <button class="plus-btn" type="button" name="button">+</button>
+          <input type="text" class="quantity" name="name" value="1" readonly>
+          <button class="minus-btn" type="button" name="button">-</button>
+        </div>
+        <div class="price"> Rs.100 </div>
+        <div class="buttons">
+          <span class="delete-btn"><button>&#10006;</button></span>
+          <span class="favorite-btn"><button>&#10084;</button></span>
+        </div>
+      </div>
+
+   </div>
+      <div class="summary-container">
+          <h3>Cart Summary</h3>
+          <div class="sub-total">
+            <label>Sub-total:</label>
+            <div class="totals-value">
+              600.00
+            </div>
+          </div>
+          <div class="sub-total">
+            <label>Tax (5%):</label>
+            <div class="totals-value">
+              5.00
+            </div>
+          </div>
+          <div class="sub-total">
+            <label>Shipping:</label>
+            <div class="totals-value">
+              15.00
+            </div>
+          </div>
+          <div class="sub-total">
+            <label>Grand Total:</label>
+            <div class="totals-value">
+              620.00
+            </div>
+          </div>
+      </div>
+      <button type="button" name="button" class="checkout">Checkout</button>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js">
+    </script>
+    <script type="text/javascript" src="javas.js"></script>
+  </body>
+</html>
